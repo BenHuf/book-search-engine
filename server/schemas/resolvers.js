@@ -52,9 +52,13 @@ const resolvers = {
         */
 
         // INSERT CODE HERE
-
+        const savedBook = await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $push: {savedBooks: bookData } },
+          { new: true }
+        );
+        return savedBook;
       }
-
       throw new AuthenticationError('You need to be logged in!');
     },
 
