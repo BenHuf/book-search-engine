@@ -6,6 +6,7 @@
   "engines": {
     "node": "16.15.0"
   },
+  "web": "node server.js",
   "scripts": {
     "start": "node server.js",
     "watch": "node server.js"
