@@ -23,3 +23,4 @@ To use this program run `npm run develop` or visit the deployed page
 
 ## Contribution
 BenHuf (Benjamin Huffman) [https://github.com/BenHuf](https://github.com/BenHuf) </br>
+garytalmes (Gary Almes) [https://github.com/garytalmes](https://github.com/garytalmes) </br>
