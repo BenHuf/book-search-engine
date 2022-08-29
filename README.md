@@ -1,44 +1,25 @@
-# Revised MERN Challenge
+# Book Search Engine
 
-I've revised the MERN challenge in the curriculum to make it a little less complex for students at the junior dev level.
 
-Follow the instructions below to make use of this revised version when submitting this assignment.
+## Purpose
+The purpose of this project is to allow users to search and save a curated library of books in one app.
 
-## Use of this Repo
+## Built With
+* React
+* React router
+* GraphQL
 
-Clone this repo. Then copy and paste the following folders/files from this repo into the *Develop* folder of the Challenge:
 
-- *server/schemas/*
-- *client/src/App.js*
-- *client/src/pages/SavedBooks.js*
-- *client/src/pages/SearchBooks.js*
-- *client/src/components/LoginForm.js*
-- *client/src/components/SignupForm.js*
+## Installation
+To install, clone the repository at the link below and run the following commands in the root of the directory.
 
-Then follow the instructions below to edit these files as needed.
+* npm install
 
-## Your Work
+## Usage
+To use this program run `npm run develop` or visit the deployed page
 
-The goal of the challenge is to take an application built with a RESTful API and migrate it to GraphQL.
+## GitHub Page Link
+[https://github.com/BenHuf/book-search-engine](https://github.com/BenHuf/book-search-engine)
 
-**Knowing this, let's first work in the *server/* files area.**
-
-- Make sure you update *package.json* with the dependencies needed for GraphQL.
-- You won't need the folders named *routes/* and *controllers/*, as GraphQL doesn't need them.
-- You'll need to update the *server.js* file to properly load up GraphQL. You can find lots of examples of this in our curriculum materials.
-- You'll need a *schemas* folder with the appropriate files inside. In this repo I have created a **starter** version of this folder and the files it contains. Follow the TODO items in each file.
-
-**Now let's work in the *client/* files area.**
-
-- Make sure you update *package.json* with the dependencies needed for GraphQL.
-- You will find TODO items in the following files:
-
-    - *src/App.js*
-    - *src/pages/SavedBooks.js*
-    - *src/pages/SearchBooks.js*
-    - *src/components/LoginForm.js*
-    - *src/components/SignupForm.js*
-
-## Once Complete
-
-Be sure to launch the app locally and test, and then deploy as per the Challenge instructions. Feel free to note in your README that the instructor provided code help on this challenge.
+## Contribution
+BenHuf (Benjamin Huffman) [https://github.com/BenHuf](https://github.com/BenHuf) </br>
